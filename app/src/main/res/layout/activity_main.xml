@@ -1,0 +1,87 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Guziki 1-10" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="GUZIK 1" />
+                    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="GUZIK 2" />
+                    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="GUZIK 3" />
+                    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="GUZIK 4" />
+                    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="GUZIK 5" />
+                    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="GUZIK 6" />
+                    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="GUZIK 7" />
+                    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="GUZIK 8" />
+                    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="GUZIK 9" />
+                    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="GUZIK 10" />
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Guziki 11-20" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="GUZIK 11" />
+                    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="GUZIK 12" />
+                    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="GUZIK 13" />
+                    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="GUZIK 14" />
+                    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="GUZIK 15" />
+                    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="GUZIK 16" />
+                    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="GUZIK 17" />
+                    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="GUZIK 18" />
+                    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="GUZIK 19" />
+                    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="GUZIK 20" />
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
